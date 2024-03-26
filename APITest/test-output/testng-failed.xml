@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.api.HttpRequests2">
+      <class name="com.api.Parameters">
         <methods>
-          <include name="createUserPOJO"/>
+          <include name="listAllUsers"/>
         </methods>
-      </class> <!-- com.api.HttpRequests2 -->
+      </class> <!-- com.api.Parameters -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

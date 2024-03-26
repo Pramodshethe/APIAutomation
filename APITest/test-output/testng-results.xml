@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-24T12:36:49 IST" name="Default suite" finished-at="2024-03-24T12:36:53 IST" duration-ms="3991">
+  <suite started-at="2024-03-26T18:58:46 IST" name="Default suite" finished-at="2024-03-26T18:58:48 IST" duration-ms="1336">
     <groups>
     </groups>
-    <test started-at="2024-03-24T12:36:49 IST" name="Default test" finished-at="2024-03-24T12:36:53 IST" duration-ms="3991">
-      <class name="com.api.HttpRequests2">
-        <test-method signature="createUserJSONFile()[pri:1, instance:com.api.HttpRequests2@515aebb0]" started-at="2024-03-24T12:36:50 IST" name="createUserJSONFile" finished-at="2024-03-24T12:36:53 IST" duration-ms="3932" status="PASS">
+    <test started-at="2024-03-26T18:58:46 IST" name="Default test" finished-at="2024-03-26T18:58:48 IST" duration-ms="1336">
+      <class name="com.api.CookiesAndHeaders">
+        <test-method signature="cookie()[pri:1, instance:com.api.CookiesAndHeaders@6c64cb25]" started-at="2024-03-26T18:58:46 IST" name="cookie" finished-at="2024-03-26T18:58:48 IST" duration-ms="1307" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUserJSONFile -->
-      </class> <!-- com.api.HttpRequests2 -->
+        </test-method> <!-- cookie -->
+      </class> <!-- com.api.CookiesAndHeaders -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
