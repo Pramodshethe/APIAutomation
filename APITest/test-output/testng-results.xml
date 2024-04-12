@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-26T18:58:46 IST" name="Default suite" finished-at="2024-03-26T18:58:48 IST" duration-ms="1336">
+  <suite started-at="2024-04-12T16:37:04 IST" name="Default suite" finished-at="2024-04-12T16:37:06 IST" duration-ms="2635">
     <groups>
     </groups>
-    <test started-at="2024-03-26T18:58:46 IST" name="Default test" finished-at="2024-03-26T18:58:48 IST" duration-ms="1336">
-      <class name="com.api.CookiesAndHeaders">
-        <test-method signature="cookie()[pri:1, instance:com.api.CookiesAndHeaders@6c64cb25]" started-at="2024-03-26T18:58:46 IST" name="cookie" finished-at="2024-03-26T18:58:48 IST" duration-ms="1307" status="PASS">
+    <test started-at="2024-04-12T16:37:04 IST" name="Default test" finished-at="2024-04-12T16:37:06 IST" duration-ms="2635">
+      <class name="com.api.XMLParsing">
+        <test-method signature="xmlparsing()[pri:1, instance:com.api.XMLParsing@37afeb11]" started-at="2024-04-12T16:37:04 IST" name="xmlparsing" finished-at="2024-04-12T16:37:06 IST" duration-ms="2592" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cookie -->
-      </class> <!-- com.api.CookiesAndHeaders -->
+        </test-method> <!-- xmlparsing -->
+      </class> <!-- com.api.XMLParsing -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
