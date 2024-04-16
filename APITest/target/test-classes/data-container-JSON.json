@@ -1,0 +1,110 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome1",
+    "definitions": {
+        "Welcome1": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "products": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Product"
+                    }
+                },
+                "total": {
+                    "type": "integer"
+                },
+                "skip": {
+                    "type": "integer"
+                },
+                "limit": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "limit",
+                "products",
+                "skip",
+                "total"
+            ],
+            "title": "Welcome1"
+        },
+        "Product": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "price": {
+                    "type": "integer"
+                },
+                "discountPercentage": {
+                    "type": "number"
+                },
+                "rating": {
+                    "type": "number"
+                },
+                "stock": {
+                    "type": "integer"
+                },
+                "brand": {
+                    "type": "string"
+                },
+                "category": {
+                    "type": "string"
+                },
+                "thumbnail": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ],
+                    "qt-uri-extensions": [
+                        ".jpeg",
+                        ".jpg",
+                        ".png",
+                        ".webp"
+                    ]
+                },
+                "images": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "format": "uri",
+                        "qt-uri-protocols": [
+                            "https"
+                        ],
+                        "qt-uri-extensions": [
+                            ".jpeg",
+                            ".jpg",
+                            ".png",
+                            ".webp"
+                        ]
+                    }
+                }
+            },
+            "required": [
+                "brand",
+                "category",
+                "description",
+                "discountPercentage",
+                "id",
+                "images",
+                "price",
+                "rating",
+                "stock",
+                "thumbnail",
+                "title"
+            ],
+            "title": "Product"
+        }
+    }
+}
