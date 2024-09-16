@@ -25,6 +25,8 @@ public class CreateUser {
 			.jsonPath().getInt("id");
 	
 	context.setAttribute("User_ID", id);
+	// for suit level
+	//context.getSuite().setAttribute("User_ID", id);
 	
 	}
 

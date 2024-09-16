@@ -13,6 +13,9 @@ public class GetUser {
 	{
 		
 		int id = (int) context.getAttribute("User_ID");
+		//for suit level access
+		//int id = (int) context.getSuite().getAttribute("User_ID");
+		
 		
 		given()
 			.pathParam("id",id )
